@@ -17,7 +17,6 @@
             // for iOS devices:
             var x = $(window).scrollTop().toFixed()
             
-
             $('body').css({'overflow': 'hidden',
                            'position': 'fixed',
                            'top' : '-' + x + 'px',
@@ -38,13 +37,9 @@
                }
               // for all other devices:
               $('body').css('overflow', '');
-
         }
-
       });    
     });
     // Attach the mutation observer to overlay, and only when attribute values change
     observer.observe(overlay, { attributes : true, attributeFilter : ['style']});
-
   });
-
