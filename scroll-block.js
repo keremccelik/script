@@ -1,4 +1,3 @@
-<script>
 // Detecting if it is an iOS device, true/false
   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform); 
 
@@ -49,4 +48,3 @@
 
   });
 
-</script>
